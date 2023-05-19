@@ -1,0 +1,352 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+:root{
+    --gray_color:gray;
+}
+
+/* header of site */
+
+.header{
+    width: 100%;
+    height: 85vh;
+   background-image: url('img/blue_bg.png');
+   border-radius: 0 0 50% 50%;
+   position: relative;
+   
+}
+
+/* contain of logo, ul, button */
+
+.top_header{
+    position: absolute;
+    width: 100%;
+    left: 3em;
+}
+
+.ul_header{
+    position: absolute;
+    width: 100%;
+    left: 150px;
+    top: 30px;
+}
+
+li{
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.button{
+    border: none;
+    width: 80px;
+    border-radius: 10px;
+    position: absolute;
+    top: 41px;
+    right: 81px;
+    background-color: white;
+    height: 28px;
+}
+
+/* contain of header */
+
+.contain_header{
+    position: relative;
+    width: 100%;
+    left: 3em;
+    top: 22em;
+}
+
+.text_header{
+    position: relative;
+    width: 100%;
+    left: 2em;
+    bottom: 3em;
+}
+
+.h1{
+    color: var(--gray_color);
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+    margin-bottom: -5px;
+}
+
+.span_header{
+    color: blueviolet;
+}
+
+.h3_header{
+    position: absolute;
+    color: var(--gray_color);
+    
+}
+
+/* images in header */
+
+.img_header{
+    position: relative;
+    width: 100%;
+    left: 42em;
+    bottom: 18em;
+}
+
+.img1{
+    position: absolute;
+    z-index: 1;
+    width: 38em;
+}
+
+.img2{
+    position: absolute;
+    z-index: 2;
+    left: 8em;
+    width: 20em;
+    
+}
+
+.img3{
+    position: absolute;
+    z-index: 3;
+    top: 25em;
+}
+
+.landing{
+    position: absolute;
+    top: 26em;
+    right: 4em;
+}
+
+/* conain of site */
+
+.contain{
+    position: relative;
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(img/second_section_.png); */
+    width: 100%;
+    height: 85vh;
+    margin-top: 4em;
+}
+
+.back_contain{
+    position: absolute;
+    left: 19em;
+    top: 5em;
+}
+
+/* All h1 & p in contain */
+
+.h2_groups, .p_groups{
+    color: var(--gray_color);
+}
+
+.h2_groups{
+    text-align: center;
+}
+
+/* contain of group 1 */
+
+.group1{
+    position: absolute;
+    top: 10em;
+    right: 70em;
+  
+}
+
+/* contain of group 2 */
+
+.group2{
+    position: absolute;
+    top: 20em;
+    right: 35em;
+  
+}
+
+/* contain of group 3*/
+
+.group3{
+    position: absolute;
+    top: 41em;
+    right: 11em;
+  
+}
+
+/* contain of group 4 */
+
+.group4{
+    background-image: url('img/why_kudzoka_bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20em;
+    height: 16em;
+    text-align: center;
+    position: absolute;
+    top: 41em;
+    left: 9em;
+}
+
+.text_group4{
+    position: absolute;
+    width: 100%;
+    top: 6em;
+    color: white;
+}
+
+.h4_group4{
+    margin-right: 44px;
+    margin-bottom: 8px;
+}
+
+/* contain of group 5 */
+.group5{
+    position: relative;
+    width: 100%;
+    top: 65em;
+    left: 14em;
+}
+
+/* images in group 5 */
+
+.img2_group5{
+    position: absolute;
+    top: 16em;
+    left: 18em;
+}
+
+.img3_group5{
+    position: absolute;
+    top: -7em;
+}
+
+.img4_group5{
+    position: absolute;
+    top: 16em;
+    right: 45em;
+}
+
+.img5_group5{
+    position: absolute;
+    top: 1em;
+    left: 55em;
+}
+
+/* text in group 5 */
+
+.text_group5{
+    position: absolute;
+    top: 23em;
+    right: 55em;
+}
+.h2{
+    margin-bottom: 20px;
+}
+.p{
+    text-align: center;
+}
+
+/* contain of footer */
+
+.footer{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    top: 44em;
+    overflow: hidden;
+}
+
+.back_image{
+    position: absolute;
+    height: 59em;
+    width: 110em;
+    z-index: 1;
+}
+
+/* images in footer */
+
+.images_footer{
+    position: absolute;
+    left: 46em;
+    top: 3em;
+    z-index: 2;
+}
+
+/* apple store in footer */
+
+.apple{
+    position: absolute;
+    top: 28em;
+    left: 11em;
+   color: gray;
+    display: inline-block;
+    background-color: white;
+    padding: 4px;
+    border-radius: 11px;
+    z-index: 2;
+}
+
+.app_store{
+    display: inline-block;
+    margin-left: 7px;
+}
+
+/* play store in footer */
+
+.play{
+    position: absolute;
+    top: 28em;
+    left: 20em;
+   color: gray;
+    display: inline-block;
+    background-color: white;
+    padding: 4px;
+    border-radius: 11px;
+    z-index: 2;
+}
+
+.play_store{
+    display: inline-block;
+    margin-left: 7px;
+}
+
+/* social in footer */
+.images_social{
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    left: 12em;
+    top: 33em;
+}
+
+.instagram{
+    margin-right: 22px;
+}
+
+.whatsapp{
+    margin-right: 22px;
+}
+
+/* Ul in footer */
+
+.ul_footer{
+    position: absolute;
+    z-index: 2;
+    bottom: 1em;
+    left: 11em;
+}
+
+.a_footer{
+    color: white;
+}
